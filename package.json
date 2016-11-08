@@ -7,8 +7,18 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -R nyan tests/"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "John Sphar <john.sphar@prezi.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "jquery": "^3.1.1",
+    "lodash": "^4.16.6",
+    "sinon": "^1.17.6",
+    "sinon-chai": "^2.8.0",
+    "mocha": "^3.1.2",
+    "chromedriver": "^2.24.1",
+    "firefox-profile": "^0.4.2"
+  }
 }
