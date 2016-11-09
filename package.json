@@ -7,18 +7,24 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "mocha -R nyan tests/"
+    "lint": "eslint **/*.js",
+    "test": "mocha-phantomjs -R dot index.html"
   },
   "author": "John Sphar <john.sphar@prezi.com>",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^3.9.1",
+    "eslint-cli": "^1.1.0",
     "chai": "^3.5.0",
-    "jquery": "^3.1.1",
-    "lodash": "^4.16.6",
-    "sinon": "^1.17.6",
-    "sinon-chai": "^2.8.0",
-    "mocha": "^3.1.2",
     "chromedriver": "^2.24.1",
-    "firefox-profile": "^0.4.2"
+    "eslint-cli": "^1.1.0",
+    "firefox-profile": "^0.4.2",
+    "jquery": "^3.1.1",
+    "jsdom": "^9.8.3",
+    "lodash": "^4.16.6",
+    "mocha": "^3.1.2",
+    "mocha-jsdom": "^1.1.0",
+    "sinon": "^1.17.6",
+    "sinon-chai": "^2.8.0"
   }
 }
